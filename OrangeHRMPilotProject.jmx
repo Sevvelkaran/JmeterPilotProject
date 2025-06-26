@@ -101,7 +101,7 @@
           <hashTree/>
         </hashTree>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Include Controller" enabled="false">
-          <stringProp name="IncludeController.includepath">/Users/sevvelkaranpalanivetrivel/Desktop/JMETER/PilotProject/Recuirtment Fragment.jmx</stringProp>
+          <stringProp name="IncludeController.includepath">Recuirtment Fragment.jmx</stringProp>
         </IncludeController>
         <hashTree/>
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller">
