@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="gateway.icloud.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1406" sby="0" sc="1" ec="1" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT gateway.icloud.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="gateway.icloud.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1406" sby="0" sc="1" ec="1" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT gateway.icloud.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="gateway.icloud.com:443" rc="" rm="Client requested protocol TLSv1 is not enabled or supported in server context&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1935" sby="0" sc="1" ec="1" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT gateway.icloud.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="315" it="0" lt="315" ct="261" ts="1750829371129" s="true" lb="/apple.parsec.safari.v1alpha.SafariSearch/SafariSearch-1" rc="200" rm="OK" tn="" dt="text" de="" by="246" sby="915" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/grpc+proto
+grpc-status: 13
+grpc-message: grpc: error unmarshalling request: unexpected EOF
+x-edge: aaps1b
+date: Wed, 25 Jun 2025 05:29:31 GMT
+server: aaps1b
+connection: close
+content-length: 0
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+grpc-accept-encoding: gzip
+Accept-Language: en-US,en;q=0.9
+X-Apple-Debug: magic=safari_egrpc
+grpc-encoding: gzip
+Priority: u=1
+Accept: */*
+X-Apple-RequestId: F7FBEA95-BCE7-443F-8AA2-F8DACB4B21D5
+Host: api-safari-aaps1b.smoot.apple.com
+Content-Type: application/grpc+proto
+Accept-Encoding: gzip, deflate, br
+grpc-timeout: 10S
+grpc-message-type: apple.parsec.safari.v1alpha.SafariSearchRequest
+User-Agent: PegasusKit/1 (Mac14,2; macOS 15.5 24F74) safari/1
+Content-Length: 336
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&#x0;&#x0;&#x0;&#x1;:
+&#xd;
+&#xb;My Trackers&#x12;�&#x2;&#x12;&#x2;IN&#x1a;&#xf;en_US@rg=inzzzz&quot;&#x2;en*&#x5;en-US*&#x5;en-IN2&#xb;143467-2,42:$815AB701-A1D0-4029-93D5-3950C99A85B9B&#xc;Asia/KolkataJ&#x2;HNX&#x1;`&#x1;h&#x1;r&#x11;&#xd;�&amp;0A&#x15;��B&#x18;&#x7;%&#x0;&#x0;&#xc;B�&#x1;&#x4;
+&#x2;[]�&#x1;&#x0;&#x0;&#x0;@�&#x2;&#x16;6kp2k3yKKX8LKGDZSbNPUw�&#x2;&#x1d;com.apple.keylayout.ABC-India�&#x2;VcCiu9LTJoSTyTpOpF-FBqNZREmCyxm9iYzYm1aGWD1mLh0Zch9s5AnTKEtKRnbgKi0oDG7_q-nAZMiHlUIDKgg&#x1a;&#x2;&#x1a;&#x0;</queryString>
+  <java.net.URL>https://api-safari-aaps1b.smoot.apple.com/apple.parsec.safari.v1alpha.SafariSearch/SafariSearch</java.net.URL>
+</httpSample>
+<httpSample t="293" it="0" lt="291" ct="179" ts="1750829372278" s="true" lb="/complete/search-2" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="1290" sby="320" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+X-Content-Type-Options: nosniff
+Date: Wed, 25 Jun 2025 05:29:32 GMT
+Expires: Wed, 25 Jun 2025 05:29:32 GMT
+Cache-Control: private, max-age=3600
+Content-Type: application/json; charset=UTF-8
+Content-Security-Policy: object-src &apos;none&apos;;base-uri &apos;self&apos;;script-src &apos;nonce-LP7z9OobEvKpAhISaC9QSQ&apos; &apos;strict-dynamic&apos; &apos;report-sample&apos; &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; https: http:;report-uri https://csp.withgoogle.com/csp/gws/sf
+Accept-CH: Sec-CH-Prefers-Color-Scheme
+Content-Disposition: attachment; filename=&quot;f.txt&quot;
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9
+Host: clients1.google.com
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+</requestHeader>
+  <responseData class="java.lang.String">[&quot;My Trackers&quot;,[[&quot;my tractors value&quot;,&quot;&quot;,[512,10]],[&quot;my trackers&quot;,&quot;&quot;,[809,30]],[&quot;find my trackers&quot;,&quot;&quot;,[22,30]],[&quot;find my trackers android&quot;,&quot;&quot;,[22,30]],[&quot;google find my trackers&quot;,&quot;&quot;,[22,30]],[&quot;apple find my trackers&quot;,&quot;&quot;,[22,30]],[&quot;best find my trackers&quot;,&quot;&quot;,[22,30]],[&quot;why do trackers track you&quot;,&quot;&quot;,[512,390,650]],[&quot;what does it mean when a tracker profiles you&quot;,&quot;&quot;,[512,390,650]]],{&quot;k&quot;:1,&quot;q&quot;:&quot;WMJtDAu0cXMrLnt_ZCc7eGLrB0s&quot;}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://clients1.google.com/complete/search?client=safari&amp;q=My+Trackers</java.net.URL>
+</httpSample>
+<httpSample t="165" it="0" lt="163" ct="84" ts="1750829372768" s="true" lb="/complete/search-3" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="1058" sby="310" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+X-Content-Type-Options: nosniff
+Date: Wed, 25 Jun 2025 05:29:32 GMT
+Expires: Wed, 25 Jun 2025 05:29:32 GMT
+Cache-Control: private, max-age=3600
+Content-Type: application/json; charset=UTF-8
+Content-Security-Policy: object-src &apos;none&apos;;base-uri &apos;self&apos;;script-src &apos;nonce-MX0d5Nz5Sa1B6YjYesizQw&apos; &apos;strict-dynamic&apos; &apos;report-sample&apos; &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; https: http:;report-uri https://csp.withgoogle.com/csp/gws/sf
+Accept-CH: Sec-CH-Prefers-Color-Scheme
+Content-Disposition: attachment; filename=&quot;f.txt&quot;
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9
+Host: clients1.google.com
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+</requestHeader>
+  <responseData class="java.lang.String">[&quot;o&quot;,[[&quot;onlinesbi&quot;,&quot;&quot;,[512,433]],[&quot;olx&quot;,&quot;&quot;,[512,433,131]],[&quot;officer on duty&quot;,&quot;&quot;,[512]],[&quot;online games&quot;,&quot;&quot;,[512,433,131]],[&quot;outlook&quot;,&quot;&quot;,[512,433,131]],[&quot;oneplus&quot;,&quot;&quot;,[512,433]],[&quot;odela&quot;,&quot;&quot;,[512]],[&quot;odela 2&quot;,&quot;&quot;,[512,433]],[&quot;ooty&quot;,&quot;&quot;,[512,433]],[&quot;online c compiler&quot;,&quot;&quot;,[512,433]]],{&quot;k&quot;:1,&quot;q&quot;:&quot;7K5eptPcRsvrMxWA0JJpnyWD3No&quot;}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://clients1.google.com/complete/search?client=safari&amp;q=o</java.net.URL>
+</httpSample>
+<httpSample t="1399" it="0" lt="1399" ct="1041" ts="1750829374526" s="true" lb="/-4" rc="302" rm="Found" tn="" dt="text" de="UTF-8" by="1369" sby="443" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:35 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Connection: close
+Location: ./web/index.php/auth/login
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+X-XSS-Protection: 1; mode=block
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Host: opensource-demo.orangehrmlive.com
+Priority: u=0, i
+Accept-Encoding: gzip, deflate, br
+Sec-Fetch-Dest: document
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">./web/index.php/auth/login</redirectLocation>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/</java.net.URL>
+</httpSample>
+<httpSample t="1011" it="0" lt="1010" ct="627" ts="1750829375943" s="true" lb="/web/index.php/auth/login-5" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2591" sby="513" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:36 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9
+Host: opensource-demo.orangehrmlive.com
+Priority: u=0, i
+Accept-Encoding: gzip, deflate, br
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;
+  &lt;title&gt;OrangeHRM&lt;/title&gt;
+      &lt;link rel=&quot;icon&quot; href=&quot;/web/dist/favicon.ico?v=1721393199309&quot;&gt;
+    &lt;link href=&quot;/web/dist/css/chunk-vendors.css?v=1721393199309&quot; rel=&quot;preload&quot; as=&quot;style&quot;&gt;
+    &lt;link href=&quot;/web/dist/css/app.css?v=1721393199309&quot; rel=&quot;preload&quot; as=&quot;style&quot;&gt;
+    &lt;link href=&quot;/web/dist/js/chunk-vendors.js?v=1721393199309&quot; rel=&quot;preload&quot; as=&quot;script&quot;&gt;
+    &lt;link href=&quot;/web/dist/js/app.js?v=1721393199309&quot; rel=&quot;preload&quot; as=&quot;script&quot;&gt;
+      &lt;link href=&quot;/web/dist/css/chunk-vendors.css?v=1721393199309&quot; rel=&quot;stylesheet&quot;/&gt;
+    &lt;link href=&quot;/web/dist/css/app.css?v=1721393199309&quot; rel=&quot;stylesheet&quot;/&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;style&gt;
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  &lt;/style&gt;
+    &lt;noscript&gt;
+        &lt;strong&gt;
+            We&apos;re sorry but orangehrm doesn&apos;t work properly without JavaScript enabled. Please enable it to continue.
+        &lt;/strong&gt;
+    &lt;/noscript&gt;
+
+    &lt;div id=&quot;app&quot;&gt;
+    &lt;auth-login
+            :token=&quot;&amp;quot;4d473195dd33ca6.7uW-eqILlD97vFDlSqc9auJfb9J36M2fxoER8o_0EFw.t6D7CZp94l0jiweDc-wEW4wbWroWrYfz_vJgmt6iKRi4o9g222n3XBWFYA&amp;quot;&quot;
+            :login-logo-src=&quot;&amp;quot;\/web\/images\/ohrm_logo.png&amp;quot;&quot;
+            :login-banner-src=&quot;&amp;quot;\/web\/images\/ohrm_branding.png?v=1721393199309&amp;quot;&quot;
+            :show-social-media=&quot;true&quot;
+            :is-demo-mode=&quot;true&quot;
+            :authenticators=&quot;[]&quot;
+        &gt;
+    &lt;template v-slot:footer&gt;
+        &lt;div class=&quot;orangehrm-copyright-wrapper&quot;&gt;
+            &lt;oxd-text tag=&quot;p&quot; class=&quot;orangehrm-copyright&quot;&gt;OrangeHRM OS 5.7&lt;/oxd-text&gt;
+&lt;oxd-text tag=&quot;p&quot; class=&quot;orangehrm-copyright&quot;&gt;&amp;copy; 2005 - 2025 &lt;a href=&quot;http://www.orangehrm.com&quot; target=&quot;_blank&quot;&gt;OrangeHRM, Inc&lt;/a&gt;. All rights reserved.&lt;/oxd-text&gt;
+        &lt;/div&gt;
+    &lt;/template&gt;
+    &lt;/auth-login&gt;
+    &lt;/div&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+        window.appGlobal = {
+          baseUrl: &quot;/web/index.php&quot;,
+          publicPath: &quot;/web&quot;,
+        };
+    &lt;/script&gt;
+    &lt;script src=&quot;/web/dist/js/chunk-vendors.js?v=1721393199309&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;/web/dist/js/app.js?v=1721393199309&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=oeuk7jldgqch6j3hgjbm6e5hmc</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</java.net.URL>
+</httpSample>
+<httpSample t="902" it="0" lt="0" ct="558" ts="1750829377012" s="true" lb="/web/index.php/core/i18n/messages-7" rc="304" rm="Not Modified" tn="" dt="" de="" by="1367" sby="688" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:37 GMT
+Connection: close
+ETag: &quot;ZWs3TwZKMQ7IEEFBrjJOSwRM4nXcQgsOPZKkNJnMS5o=&quot;
+Cache-Control: no-cache, private
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+X-XSS-Protection: 1; mode=block
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+If-None-Match: &quot;ZWs3TwZKMQ7IEEFBrjJOSwRM4nXcQgsOPZKkNJnMS5o=&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=3, i
+Pragma: no-cache
+Accept: application/json
+contentType: application/json
+Host: opensource-demo.orangehrmlive.com
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=oeuk7jldgqch6j3hgjbm6e5hmc</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages</java.net.URL>
+</httpSample>
+<httpSample t="953" it="0" lt="951" ct="594" ts="1750829376976" s="true" lb="/web/index.php/pim/viewPhoto/empNumber/7-6" rc="302" rm="Found" tn="" dt="text" de="UTF-8" by="1974" sby="737" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:37 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+Location: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+If-None-Match: &quot;P2cce+UXjeBpq9iWKfHdQlYTyOgflCghtVN0ewu0gZM=&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=5, i
+Accept: image/webp,image/avif,image/jxl,image/heic,image/heic-sequence,video/*;q=0.8,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Host: opensource-demo.orangehrmlive.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: image
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot; /&gt;
+        &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=&apos;https://opensource-demo.orangehrmlive.com/web/index.php/auth/login&apos;&quot; /&gt;
+
+        &lt;title&gt;Redirecting to https://opensource-demo.orangehrmlive.com/web/index.php/auth/login&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        Redirecting to &lt;a href=&quot;https://opensource-demo.orangehrmlive.com/web/index.php/auth/login&quot;&gt;https://opensource-demo.orangehrmlive.com/web/index.php/auth/login&lt;/a&gt;.
+    &lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=oeuk7jldgqch6j3hgjbm6e5hmc</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</redirectLocation>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPhoto/empNumber/7</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="gateway.icloud.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1406" sby="0" sc="1" ec="1" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT gateway.icloud.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="gateway.icloud.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1406" sby="0" sc="1" ec="1" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT gateway.icloud.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="gateway.icloud.com:443" rc="" rm="Client requested protocol TLSv1 is not enabled or supported in server context&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1935" sby="0" sc="1" ec="1" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT gateway.icloud.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="gateway.icloud.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1406" sby="0" sc="1" ec="1" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT gateway.icloud.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="gateway.icloud.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1406" sby="0" sc="1" ec="1" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT gateway.icloud.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="gateway.icloud.com:443" rc="" rm="Client requested protocol TLSv1 is not enabled or supported in server context&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1935" sby="0" sc="1" ec="1" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT gateway.icloud.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="1303" it="0" lt="1302" ct="592" ts="1750829395208" s="true" lb="/web/index.php/auth/validate-8" rc="302" rm="Found" tn="" dt="text" de="UTF-8" by="2092" sby="880" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 302 Found
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:56 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Set-Cookie: orangehrm=krk1du9gv96khr6qk5qfgf82pl; path=/web; secure; HttpOnly; SameSite=Lax
+Cache-Control: no-cache, private
+Location: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Origin: https://opensource-demo.orangehrmlive.com
+Priority: u=0, i
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Host: opensource-demo.orangehrmlive.com
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: document
+Content-Length: 158
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;UTF-8&quot; /&gt;
+        &lt;meta http-equiv=&quot;refresh&quot; content=&quot;0;url=&apos;https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index&apos;&quot; /&gt;
+
+        &lt;title&gt;Redirecting to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        Redirecting to &lt;a href=&quot;https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index&quot;&gt;https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index&lt;/a&gt;.
+    &lt;/body&gt;
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=oeuk7jldgqch6j3hgjbm6e5hmc</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">_token=4d473195dd33ca6.7uW-eqILlD97vFDlSqc9auJfb9J36M2fxoER8o_0EFw.t6D7CZp94l0jiweDc-wEW4wbWroWrYfz_vJgmt6iKRi4o9g222n3XBWFYA&amp;username=Admin&amp;password=admin123</queryString>
+  <redirectLocation class="java.lang.String">https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index</redirectLocation>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate</java.net.URL>
+</httpSample>
+<httpSample t="1019" it="0" lt="1018" ct="637" ts="1750829396548" s="true" lb="/web/index.php/dashboard/index-9" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="3142" sby="602" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:57 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=0, i
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Host: opensource-demo.orangehrmlive.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;
+  &lt;title&gt;OrangeHRM&lt;/title&gt;
+    &lt;link rel=&quot;icon&quot; href=&quot;/web/dist/favicon.ico?v=1721393199309&quot;&gt;
+  &lt;link href=&quot;/web/dist/css/chunk-vendors.css?v=1721393199309&quot; rel=&quot;preload&quot; as=&quot;style&quot;&gt;
+  &lt;link href=&quot;/web/dist/css/app.css?v=1721393199309&quot; rel=&quot;preload&quot; as=&quot;style&quot;&gt;
+  &lt;link href=&quot;/web/dist/js/chunk-vendors.js?v=1721393199309&quot; rel=&quot;preload&quot; as=&quot;script&quot;&gt;
+  &lt;link href=&quot;/web/dist/js/app.js?v=1721393199309&quot; rel=&quot;preload&quot; as=&quot;script&quot;&gt;
+    &lt;link href=&quot;/web/dist/css/chunk-vendors.css?v=1721393199309&quot; rel=&quot;stylesheet&quot;/&gt;
+  &lt;link href=&quot;/web/dist/css/app.css?v=1721393199309&quot; rel=&quot;stylesheet&quot;/&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;style&gt;
+    :root {
+            --oxd-primary-one-color:#FF7B1D;
+            --oxd-primary-font-color:#FFFFFF;
+            --oxd-secondary-four-color:#76BC21;
+            --oxd-secondary-font-color:#FFFFFF;
+            --oxd-primary-gradient-start-color:#FF920B;
+            --oxd-primary-gradient-end-color:#F35C17;
+            --oxd-secondary-gradient-start-color:#FF920B;
+            --oxd-secondary-gradient-end-color:#F35C17;
+            --oxd-primary-one-lighten-5-color:#ff8a37;
+            --oxd-primary-one-lighten-30-color:#ffd4b6;
+            --oxd-primary-one-darken-5-color:#ff6c03;
+            --oxd-primary-one-alpha-10-color:rgba(255, 123, 29, 0.1);
+            --oxd-primary-one-alpha-15-color:rgba(255, 123, 29, 0.15);
+            --oxd-primary-one-alpha-20-color:rgba(255, 123, 29, 0.2);
+            --oxd-primary-one-alpha-50-color:rgba(255, 123, 29, 0.5);
+            --oxd-secondary-four-lighten-5-color:#84d225;
+            --oxd-secondary-four-darken-5-color:#68a61d;
+            --oxd-secondary-four-alpha-10-color:rgba(118, 188, 33, 0.1);
+            --oxd-secondary-four-alpha-15-color:rgba(118, 188, 33, 0.15);
+            --oxd-secondary-four-alpha-20-color:rgba(118, 188, 33, 0.2);
+            --oxd-secondary-four-alpha-50-color:rgba(118, 188, 33, 0.5);
+        }
+  &lt;/style&gt;
+  &lt;noscript&gt;
+    &lt;strong&gt;
+      We&apos;re sorry but orangehrm doesn&apos;t work properly without JavaScript enabled. Please enable it to continue.
+    &lt;/strong&gt;
+  &lt;/noscript&gt;
+
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;oxd-layout
+        home-url=&quot;https://www.orangehrm.com/&quot;
+        :sidepanel-menu-items=&quot;[{&amp;quot;id&amp;quot;:1,&amp;quot;name&amp;quot;:&amp;quot;Admin&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/admin\/viewAdminModule&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;admin&amp;quot;},{&amp;quot;id&amp;quot;:30,&amp;quot;name&amp;quot;:&amp;quot;PIM&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/pim\/viewPimModule&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;pim&amp;quot;},{&amp;quot;id&amp;quot;:41,&amp;quot;name&amp;quot;:&amp;quot;Leave&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/leave\/viewLeaveModule&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;leave&amp;quot;},{&amp;quot;id&amp;quot;:52,&amp;quot;name&amp;quot;:&amp;quot;Time&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/time\/viewTimeModule&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;time&amp;quot;},{&amp;quot;id&amp;quot;:65,&amp;quot;name&amp;quot;:&amp;quot;Recruitment&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/recruitment\/viewRecruitmentModule&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;recruitment&amp;quot;},{&amp;quot;id&amp;quot;:40,&amp;quot;name&amp;quot;:&amp;quot;My Info&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/pim\/viewMyDetails&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;myinfo&amp;quot;},{&amp;quot;id&amp;quot;:83,&amp;quot;name&amp;quot;:&amp;quot;Performance&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/performance\/viewPerformanceModule&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;performance&amp;quot;},{&amp;quot;id&amp;quot;:82,&amp;quot;name&amp;quot;:&amp;quot;Dashboard&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/dashboard\/index&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;dashboard&amp;quot;,&amp;quot;active&amp;quot;:true},{&amp;quot;id&amp;quot;:93,&amp;quot;name&amp;quot;:&amp;quot;Directory&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/directory\/viewDirectory&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;directory&amp;quot;},{&amp;quot;id&amp;quot;:96,&amp;quot;name&amp;quot;:&amp;quot;Maintenance&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/maintenance\/viewMaintenanceModule&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;maintenance&amp;quot;},{&amp;quot;id&amp;quot;:105,&amp;quot;name&amp;quot;:&amp;quot;Claim&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/claim\/viewClaimModule&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;claim&amp;quot;},{&amp;quot;id&amp;quot;:101,&amp;quot;name&amp;quot;:&amp;quot;Buzz&amp;quot;,&amp;quot;url&amp;quot;:&amp;quot;\/web\/index.php\/buzz\/viewBuzz&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;buzz&amp;quot;}]&quot;
+        :topbar-menu-items=&quot;[]&quot;
+        :user=&quot;{&amp;quot;firstName&amp;quot;:&amp;quot;Hello&amp;quot;,&amp;quot;lastName&amp;quot;:&amp;quot;Div&amp;quot;,&amp;quot;profImgSrc&amp;quot;:&amp;quot;\/web\/index.php\/pim\/viewPhoto\/empNumber\/7&amp;quot;,&amp;quot;hasPassword&amp;quot;:true}&quot;
+        brand-logo-src=&quot;/web/images/orange.png?v=1721393199309&quot;
+        brand-banner-src=&quot;/web/images/orangehrm-logo.png?v=1721393199309&quot;
+        logout-url=&quot;/web/index.php/auth/logout&quot;
+        support-url=&quot;/web/index.php/help/support&quot;
+        :update-password-url=&quot;&amp;quot;/web/index.php/pim/updatePassword&amp;quot;&quot;
+        :permissions=&quot;{&amp;quot;dashboard_buzz_widget&amp;quot;:{&amp;quot;canRead&amp;quot;:true,&amp;quot;canCreate&amp;quot;:false,&amp;quot;canUpdate&amp;quot;:false,&amp;quot;canDelete&amp;quot;:false},&amp;quot;dashboard_employees_on_leave_today_config&amp;quot;:{&amp;quot;canRead&amp;quot;:true,&amp;quot;canCreate&amp;quot;:false,&amp;quot;canUpdate&amp;quot;:true,&amp;quot;canDelete&amp;quot;:false},&amp;quot;dashboard_leave_widget&amp;quot;:{&amp;quot;canRead&amp;quot;:true,&amp;quot;canCreate&amp;quot;:false,&amp;quot;canUpdate&amp;quot;:false,&amp;quot;canDelete&amp;quot;:false},&amp;quot;dashboard_location_widget&amp;quot;:{&amp;quot;canRead&amp;quot;:true,&amp;quot;canCreate&amp;quot;:false,&amp;quot;canUpdate&amp;quot;:false,&amp;quot;canDelete&amp;quot;:false},&amp;quot;dashboard_subunit_widget&amp;quot;:{&amp;quot;canRead&amp;quot;:true,&amp;quot;canCreate&amp;quot;:false,&amp;quot;canUpdate&amp;quot;:false,&amp;quot;canDelete&amp;quot;:false},&amp;quot;dashboard_time_widget&amp;quot;:{&amp;quot;canRead&amp;quot;:true,&amp;quot;canCreate&amp;quot;:false,&amp;quot;canUpdate&amp;quot;:false,&amp;quot;canDelete&amp;quot;:false}}&quot;
+        :breadcrumb=&quot;{&amp;quot;moduleName&amp;quot;:&amp;quot;Dashboard&amp;quot;,&amp;quot;level&amp;quot;:null}&quot;
+        :date-format=&quot;{&amp;quot;id&amp;quot;:&amp;quot;Y-d-m&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;yyyy-dd-mm&amp;quot;}&quot;
+        help-url=&quot;/web/index.php/help/help?label=dashboard_index&quot;
+        :show-upgrade=&quot;1&quot;
+    &gt;
+      &lt;view-dashboard
+            &gt;
+    &lt;/view-dashboard&gt;
+    &lt;template v-slot:footer&gt;&lt;oxd-text tag=&quot;p&quot; class=&quot;orangehrm-copyright&quot;&gt;OrangeHRM OS 5.7&lt;/oxd-text&gt;
+&lt;oxd-text tag=&quot;p&quot; class=&quot;orangehrm-copyright&quot;&gt;&amp;copy; 2005 - 2025 &lt;a href=&quot;http://www.orangehrm.com&quot; target=&quot;_blank&quot;&gt;OrangeHRM, Inc&lt;/a&gt;. All rights reserved.&lt;/oxd-text&gt;
+&lt;br&gt;&lt;/template&gt;
+    &lt;/oxd-layout&gt;
+  &lt;/div&gt;
+  &lt;script type=&quot;text/javascript&quot;&gt;
+      window.appGlobal = {
+        baseUrl: &quot;/web/index.php&quot;,
+        publicPath: &quot;/web&quot;,
+      };
+  &lt;/script&gt;
+  &lt;script src=&quot;/web/dist/js/chunk-vendors.js?v=1721393199309&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;/web/dist/js/app.js?v=1721393199309&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index</java.net.URL>
+</httpSample>
+<httpSample t="866" it="0" lt="0" ct="523" ts="1750829397625" s="true" lb="/web/index.php/core/i18n/messages-10" rc="304" rm="Not Modified" tn="" dt="" de="" by="1367" sby="693" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:58 GMT
+Connection: close
+ETag: &quot;ZWs3TwZKMQ7IEEFBrjJOSwRM4nXcQgsOPZKkNJnMS5o=&quot;
+Cache-Control: no-cache, private
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+X-XSS-Protection: 1; mode=block
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+If-None-Match: &quot;ZWs3TwZKMQ7IEEFBrjJOSwRM4nXcQgsOPZKkNJnMS5o=&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=3, i
+Pragma: no-cache
+Accept: application/json
+contentType: application/json
+Host: opensource-demo.orangehrmlive.com
+Cache-Control: no-cache
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/core/i18n/messages</java.net.URL>
+</httpSample>
+<httpSample t="876" it="0" lt="874" ct="523" ts="1750829398556" s="true" lb="/web/index.php/api/v2/dashboard/employees/time-at-work-15" rc="200" rm="OK" tn="" dt="text" de="" by="2548" sby="718" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=3, i
+Accept: application/json
+Host: opensource-demo.orangehrmlive.com
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;:[{&quot;workDay&quot;:{&quot;id&quot;:&quot;1&quot;,&quot;day&quot;:&quot;Mon&quot;,&quot;date&quot;:&quot;2025-06-23&quot;},&quot;totalTime&quot;:{&quot;hours&quot;:0,&quot;minutes&quot;:0}},{&quot;workDay&quot;:{&quot;id&quot;:&quot;2&quot;,&quot;day&quot;:&quot;Tue&quot;,&quot;date&quot;:&quot;2025-06-24&quot;},&quot;totalTime&quot;:{&quot;hours&quot;:0,&quot;minutes&quot;:0}},{&quot;workDay&quot;:{&quot;id&quot;:&quot;3&quot;,&quot;day&quot;:&quot;Wed&quot;,&quot;date&quot;:&quot;2025-06-25&quot;},&quot;totalTime&quot;:{&quot;hours&quot;:0,&quot;minutes&quot;:0}},{&quot;workDay&quot;:{&quot;id&quot;:&quot;4&quot;,&quot;day&quot;:&quot;Thu&quot;,&quot;date&quot;:&quot;2025-06-26&quot;},&quot;totalTime&quot;:{&quot;hours&quot;:0,&quot;minutes&quot;:0}},{&quot;workDay&quot;:{&quot;id&quot;:&quot;5&quot;,&quot;day&quot;:&quot;Fri&quot;,&quot;date&quot;:&quot;2025-06-27&quot;},&quot;totalTime&quot;:{&quot;hours&quot;:0,&quot;minutes&quot;:0}},{&quot;workDay&quot;:{&quot;id&quot;:&quot;6&quot;,&quot;day&quot;:&quot;Sat&quot;,&quot;date&quot;:&quot;2025-06-28&quot;},&quot;totalTime&quot;:{&quot;hours&quot;:0,&quot;minutes&quot;:0}},{&quot;workDay&quot;:{&quot;id&quot;:&quot;0&quot;,&quot;day&quot;:&quot;Sun&quot;,&quot;date&quot;:&quot;2025-06-29&quot;},&quot;totalTime&quot;:{&quot;hours&quot;:0,&quot;minutes&quot;:0}}],&quot;meta&quot;:{&quot;lastAction&quot;:{&quot;state&quot;:&quot;PUNCHED OUT&quot;,&quot;utcDate&quot;:&quot;2024-03-29&quot;,&quot;utcTime&quot;:&quot;06:19&quot;,&quot;userDate&quot;:&quot;2024-03-29&quot;,&quot;userTime&quot;:&quot;13:19&quot;,&quot;timezoneOffset&quot;:&quot;7&quot;},&quot;currentDay&quot;:{&quot;currentDate&quot;:{&quot;date&quot;:&quot;2025-06-25&quot;,&quot;label&quot;:&quot;Jun 25&quot;},&quot;totalTime&quot;:{&quot;hours&quot;:0,&quot;minutes&quot;:0}},&quot;currentWeek&quot;:{&quot;startDate&quot;:{&quot;date&quot;:&quot;2025-06-23&quot;,&quot;label&quot;:&quot;Jun 23&quot;},&quot;endDate&quot;:{&quot;date&quot;:&quot;2025-06-29&quot;,&quot;label&quot;:&quot;Jun 29&quot;},&quot;totalTime&quot;:{&quot;hours&quot;:0,&quot;minutes&quot;:0}},&quot;currentUser&quot;:{&quot;empNumber&quot;:7,&quot;firstName&quot;:&quot;Hello&quot;,&quot;middleName&quot;:&quot;akhil&quot;,&quot;lastName&quot;:&quot;Div&quot;,&quot;terminationId&quot;:null}},&quot;rels&quot;:[]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/time-at-work?timezoneOffset=5.5&amp;currentDate=2025-06-25&amp;currentTime=10%3A59</java.net.URL>
+</httpSample>
+<httpSample t="905" it="0" lt="904" ct="525" ts="1750829398554" s="true" lb="/web/index.php/api/v2/dashboard/employees/leaves-13" rc="200" rm="OK" tn="" dt="text" de="" by="1440" sby="666" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=3, i
+Accept: application/json
+Host: opensource-demo.orangehrmlive.com
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;:[],&quot;meta&quot;:{&quot;total&quot;:0,&quot;leavePeriodDefined&quot;:true},&quot;rels&quot;:[]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/leaves?date=2025-06-25</java.net.URL>
+</httpSample>
+<httpSample t="936" it="0" lt="935" ct="521" ts="1750829398555" s="true" lb="/web/index.php/api/v2/dashboard/employees/action-summary-14" rc="200" rm="OK" tn="" dt="text" de="" by="1467" sby="658" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=3, i
+Accept: application/json
+Host: opensource-demo.orangehrmlive.com
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;:[{&quot;id&quot;:4,&quot;group&quot;:&quot;Pending Self Reviews&quot;,&quot;pendingActionCount&quot;:1}],&quot;meta&quot;:[],&quot;rels&quot;:[]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/action-summary</java.net.URL>
+</httpSample>
+<httpSample t="970" it="0" lt="969" ct="524" ts="1750829398554" s="true" lb="/web/index.php/api/v2/buzz/feed-12" rc="200" rm="OK" tn="" dt="text" de="" by="3267" sby="632" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=3, i
+Accept: application/json, text/plain, */*
+Host: opensource-demo.orangehrmlive.com
+Accept-Encoding: gzip, deflate, br
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;:[{&quot;id&quot;:10,&quot;post&quot;:{&quot;id&quot;:9},&quot;type&quot;:&quot;text&quot;,&quot;liked&quot;:false,&quot;text&quot;:&quot;Hi All;\r\n\r\nLinda has been blessed with a baby boy!\r\n\r\n\r\n\r\nLinda: With love, we welcome your dear new baby to this world. Congratulations!&quot;,&quot;employee&quot;:{&quot;empNumber&quot;:7,&quot;lastName&quot;:&quot;Div&quot;,&quot;firstName&quot;:&quot;Hello&quot;,&quot;middleName&quot;:&quot;akhil&quot;,&quot;employeeId&quot;:&quot;muser&quot;,&quot;terminationId&quot;:null},&quot;stats&quot;:{&quot;numOfLikes&quot;:0,&quot;numOfComments&quot;:0,&quot;numOfShares&quot;:0},&quot;createdDate&quot;:&quot;2020-10-08&quot;,&quot;createdTime&quot;:&quot;03:38&quot;,&quot;originalPost&quot;:null,&quot;permission&quot;:{&quot;canUpdate&quot;:true,&quot;canDelete&quot;:true}},{&quot;id&quot;:9,&quot;post&quot;:{&quot;id&quot;:8},&quot;type&quot;:&quot;text&quot;,&quot;liked&quot;:true,&quot;text&quot;:&quot;World Championship: What makes the perfect snooker player?\r\n\r\nMark Selby: Robertson has one of the best techniques in the game. It is very, very straight and he fully commits to every single shot he plays.\r\n\r\nJohn Higgins: Every shot is repetitive. He always keeps the same technique and cues through the ball bang straight.\r\n\r\nBarry Hawkins: Robertson is textbook with his grip and has a ramrod solid cue action, delivering it in a straight line.\r\n\r\nHonourable mentions: Shaun Murphy, Ding Junhui, Jack Lisowski.&quot;,&quot;employee&quot;:{&quot;empNumber&quot;:22,&quot;lastName&quot;:&quot;Shaheen&quot;,&quot;firstName&quot;:&quot;Sania&quot;,&quot;middleName&quot;:&quot;&quot;,&quot;employeeId&quot;:&quot;0087&quot;,&quot;terminationId&quot;:null},&quot;stats&quot;:{&quot;numOfLikes&quot;:1,&quot;numOfComments&quot;:0,&quot;numOfShares&quot;:0},&quot;createdDate&quot;:&quot;2020-10-08&quot;,&quot;createdTime&quot;:&quot;03:38&quot;,&quot;originalPost&quot;:null,&quot;permission&quot;:{&quot;canUpdate&quot;:false,&quot;canDelete&quot;:true}},{&quot;id&quot;:6,&quot;post&quot;:{&quot;id&quot;:5},&quot;type&quot;:&quot;text&quot;,&quot;liked&quot;:false,&quot;text&quot;:&quot;Live SIMPLY\r\nDream BIG\r\nBe GREATFULL\r\nGive LOVE\r\nLaugh LOT.......&quot;,&quot;employee&quot;:{&quot;empNumber&quot;:9,&quot;lastName&quot;:&quot;Hamilton&quot;,&quot;firstName&quot;:&quot;Russel&quot;,&quot;middleName&quot;:&quot;&quot;,&quot;employeeId&quot;:&quot;0034&quot;,&quot;terminationId&quot;:null},&quot;stats&quot;:{&quot;numOfLikes&quot;:1,&quot;numOfComments&quot;:0,&quot;numOfShares&quot;:0},&quot;createdDate&quot;:&quot;2020-10-08&quot;,&quot;createdTime&quot;:&quot;03:33&quot;,&quot;originalPost&quot;:null,&quot;permission&quot;:{&quot;canUpdate&quot;:false,&quot;canDelete&quot;:true}}],&quot;meta&quot;:{&quot;total&quot;:3},&quot;rels&quot;:[]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/buzz/feed?limit=5&amp;offset=0&amp;sortOrder=DESC&amp;sortField=share.createdAtUtc</java.net.URL>
+</httpSample>
+<httpSample t="999" it="0" lt="0" ct="543" ts="1750829398536" s="true" lb="/web/index.php/pim/viewPhoto/empNumber/7-11" rc="304" rm="Not Modified" tn="" dt="" de="" by="1367" sby="737" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:59 GMT
+Connection: close
+ETag: &quot;P2cce+UXjeBpq9iWKfHdQlYTyOgflCghtVN0ewu0gZM=&quot;
+Cache-Control: no-cache, private
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+X-XSS-Protection: 1; mode=block
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+If-None-Match: &quot;P2cce+UXjeBpq9iWKfHdQlYTyOgflCghtVN0ewu0gZM=&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=5, i
+Accept: image/webp,image/avif,image/jxl,image/heic,image/heic-sequence,video/*;q=0.8,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Host: opensource-demo.orangehrmlive.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: image
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPhoto/empNumber/7</java.net.URL>
+</httpSample>
+<httpSample t="1031" it="0" lt="1030" ct="525" ts="1750829398557" s="true" lb="/web/index.php/api/v2/dashboard/shortcuts-16" rc="200" rm="OK" tn="" dt="text" de="" by="1557" sby="643" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:29:59 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=3, i
+Accept: application/json
+Host: opensource-demo.orangehrmlive.com
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;:{&quot;leave.assign_leave&quot;:true,&quot;leave.leave_list&quot;:true,&quot;leave.apply_leave&quot;:true,&quot;leave.my_leave&quot;:true,&quot;time.employee_timesheet&quot;:true,&quot;time.my_timesheet&quot;:true},&quot;meta&quot;:[],&quot;rels&quot;:[]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/shortcuts</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="api-safari-aaps1b.smoot.apple.com:443" rc="" rm="Connection reset&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1101" sby="0" sc="1" ec="1" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT api-safari-aaps1b.smoot.apple.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="856" it="0" lt="855" ct="490" ts="1750829399458" s="true" lb="/web/index.php/api/v2/dashboard/employees/subunit-17" rc="200" rm="OK" tn="" dt="text" de="" by="1699" sby="651" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:30:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=3, i
+Accept: application/json
+Host: opensource-demo.orangehrmlive.com
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;:[{&quot;subunit&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;Administration&quot;},&quot;count&quot;:2},{&quot;subunit&quot;:{&quot;id&quot;:13,&quot;name&quot;:&quot;Human Resources&quot;},&quot;count&quot;:2},{&quot;subunit&quot;:{&quot;id&quot;:3,&quot;name&quot;:&quot;Engineering&quot;},&quot;count&quot;:1},{&quot;subunit&quot;:{&quot;id&quot;:10,&quot;name&quot;:&quot;Client Services&quot;},&quot;count&quot;:1}],&quot;meta&quot;:{&quot;otherEmployeeCount&quot;:0,&quot;unassignedEmployeeCount&quot;:99,&quot;totalSubunitCount&quot;:4},&quot;rels&quot;:[]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/subunit</java.net.URL>
+</httpSample>
+<httpSample t="871" it="0" lt="871" ct="509" ts="1750829399473" s="true" lb="/web/index.php/api/v2/dashboard/employees/locations-18" rc="200" rm="OK" tn="" dt="text" de="" by="1655" sby="653" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:30:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=3, i
+Accept: application/json
+Host: opensource-demo.orangehrmlive.com
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;:[{&quot;location&quot;:{&quot;id&quot;:5,&quot;name&quot;:&quot;Texas R&amp;D&quot;},&quot;count&quot;:3},{&quot;location&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;New York Sales Office&quot;},&quot;count&quot;:2},{&quot;location&quot;:{&quot;id&quot;:3,&quot;name&quot;:&quot;Canadian Regional HQ&quot;},&quot;count&quot;:1}],&quot;meta&quot;:{&quot;otherEmployeeCount&quot;:0,&quot;unassignedEmployeeCount&quot;:99,&quot;totalLocationCount&quot;:3},&quot;rels&quot;:[]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/locations</java.net.URL>
+</httpSample>
+<httpSample t="852" it="0" lt="851" ct="494" ts="1750829399506" s="true" lb="/web/index.php/events/push-19" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="1454" sby="661" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:30:00 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: no-cache, private
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Origin: https://opensource-demo.orangehrmlive.com
+Priority: u=3, i
+Accept: application/json
+Host: opensource-demo.orangehrmlive.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Sec-Fetch-Dest: empty
+Content-Length: 0
+Content-Type: text/plain; charset=UTF-8
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/events/push</java.net.URL>
+</httpSample>
+<httpSample t="1110" it="0" lt="1006" ct="517" ts="1750829399542" s="true" lb="/web/index.php/pim/viewPhoto/empNumber/22-20" rc="200" rm="OK" tn="" dt="bin" de="" by="34367" sby="675" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:30:00 GMT
+Content-Type: image/jpeg
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: max-age=0, must-revalidate, private
+ETag: &quot;x9a7tBQumrDC4oPuNRP8X1//Ehqbu0TltKlvsDyUSsc=&quot;
+Pragma: Public
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=5, i
+Accept: image/webp,image/avif,image/jxl,image/heic,image/heic-sequence,video/*;q=0.8,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Host: opensource-demo.orangehrmlive.com
+Accept-Encoding: gzip, deflate, br
+Sec-Fetch-Dest: image
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: (bin)</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPhoto/empNumber/22</java.net.URL>
+</httpSample>
+<httpSample t="1125" it="0" lt="999" ct="510" ts="1750829399549" s="true" lb="/web/index.php/pim/viewPhoto/empNumber/9-21" rc="200" rm="OK" tn="" dt="bin" de="" by="20003" sby="674" sc="1" ec="0" ng="0" na="0" hn="Sevvelkarans-MacBook-Air.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Jun 2025 05:30:00 GMT
+Content-Type: image/jpeg
+Transfer-Encoding: chunked
+Connection: close
+Cache-Control: max-age=0, must-revalidate, private
+ETag: &quot;HPYdh9SELe3uY6bErmxV4OXbXIAviMN0mBPv6nsoIpo=&quot;
+Pragma: Public
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubdomains; 
+Content-Security-Policy: default-src &apos;self&apos; *.projects-abroad.net fonts.googleapis.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.google.com *.docusign.net www.youtube.com youtu.be player.vimeo.com docs.google.com &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; data: font;frame-src &apos;self&apos; www.youtube.com www.vimeo.com vimeo.com www.yahoo.com www.dailymotion.com www.metacafe.com www.ustream.tv native.testing.equest.com sandbox.e-signlive.com *.orangehrmlive.com *.orangehrm.com *.amazonaws.com;connect-src &apos;self&apos; *.orangehrm.com *.orangehrmlive.com;worker-src blob: &apos;self&apos;;img-src * &apos;self&apos; data: blob:
+client_max_body_size: 50M
+Public-Key-Pins: pin-sha256=&quot;Md7QJIL/UMqdHaS73pEkLHm5ofUUE35+r4SYdM014/E=&quot;;pin-sha256=&quot;blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=&quot;;pin-sha256=&quot;puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A=&quot;;pin-sha256=&quot;yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg=&quot;; pin-sha256=&quot;Slt48iBVTjuRQJTjbzopminRrHSGtndY0/sj0lFf9Qk=&quot;; max-age=63072000; includeSubDomains
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+Referer: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9
+Priority: u=5, i
+Accept: image/webp,image/avif,image/jxl,image/heic,image/heic-sequence,video/*;q=0.8,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Host: opensource-demo.orangehrmlive.com
+Accept-Encoding: gzip, deflate, br
+Sec-Fetch-Dest: image
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: (bin)</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">orangehrm=krk1du9gv96khr6qk5qfgf82pl</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPhoto/empNumber/9</java.net.URL>
+</httpSample>
+
+</testResults>
