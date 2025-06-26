@@ -100,9 +100,7 @@
           </ModuleController>
           <hashTree/>
         </hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Include Controller" enabled="false">
-          <stringProp name="IncludeController.includepath">Recuirtment Fragment.jmx</stringProp>
-        </IncludeController>
+
         <hashTree/>
         <ModuleController guiclass="ModuleControllerGui" testclass="ModuleController" testname="Module Controller">
           <collectionProp name="ModuleController.node_path">
